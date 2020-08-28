@@ -62,16 +62,16 @@ OTA updater started
 ```
 #### mDNS
 ##### MacOS
-```
 $ dns-sd -q esp8266-pms5003
+```
 DATE: ---Thu 27 Aug 2020---
 23:06:09.336  ...STARTING...
 Timestamp     A/R Flags if Name                          Type  Class   Rdata
 23:06:09.339  Add     2  0 esp8266-pms5003.lan.          Addr   IN     172.16.1.69
 ```
 #### Linux if the avahi daemon is running.
-```
 $ avahi-resolve --name esp8266-pms5003.local
+```
 esp8266-pms5003.local	172.16.1.69
 ```
 ### Useful URLs
