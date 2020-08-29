@@ -79,9 +79,9 @@ struct PMV {
         const int PM_2d5_OFFSET = 6;
         const int PM_10d0_OFFSET = 8;
 
-        int _pm_1d0;  // PM 1.0
-        int _pm_2d5;  // PM 2.5
-        int _pm_10d0; // PM 10
+        int _pm_1d0 = -1;  // PM 1.0
+        int _pm_2d5 = -1;  // PM 2.5
+        int _pm_10d0 = -1; // PM 10
 
         static unsigned int twobytes(unsigned char* offset)
         {
