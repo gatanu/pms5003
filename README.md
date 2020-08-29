@@ -30,12 +30,11 @@ pms5003. Be aware that uploading of code from the arduino IDE via
 serial port will not work if the pms5003 is connected.
 
 ## Wiring
-Just four wires required
+Just three wires required
 ```
 esp8266		pms5003
 gnd	-	gnd
 vin	-	vcc
-txd	-	rx
 rxd	-	tx
 ```
 
