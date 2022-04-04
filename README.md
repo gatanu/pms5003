@@ -44,8 +44,8 @@ rxd	-	tx
 Instructions on installing the software can be found below. Firstly
 edit *config.ino* and set your **ssid** and **password**. The code
 supports OTA (Over the air updates). The code has to loaded only once
-via the USB<->serial inteface, subsequent updates can be over the air.
-There is continous debugging output on the serial port. In my setup I
+via the USB<->serial interface, subsequent updates can be over the air.
+There is continuous debugging output on the serial port. In my setup I
 have the esp8266 connected to a raspberry pi. The raspberry pi
 provides power via USB and captures debugging output.
 
