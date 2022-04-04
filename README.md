@@ -59,7 +59,7 @@ PM10: 7 ug/m3
 
 ### Finding IP address of the device
 #### The device appears in local DNS
-In my setup dhcp reqests appear in DNS https://en.wikipedia.org/wiki/Dnsmasq
+In my setup dhcp requests appear in DNS https://en.wikipedia.org/wiki/Dnsmasq
 #### From serial interface
 The arduino IDE has a serial line monitor.
 ```
