@@ -52,9 +52,9 @@ provides power via USB and captures debugging output.
 $ **cu -l /dev/ttyUSB0 -s 9600**
 ```
 Connected.
-PM1.0: 5 ug/m3
-PM2.5: 7 ug/m3
-PM10: 7 ug/m3
+PM1.0: 5 μg/m3
+PM2.5: 7 μg/m3
+PM10: 7 μg/m3
 ```
 
 ### Finding IP address of the device
